@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Roboto", sans-serif;
+}
+
+.custom {
+  .MuiInputLabel-root {
+    color: white !important;
+  }
+
+  /* Change input text color */
+  .MuiInputBase-input {
+    color: white !important;
+  }
+
+  /* Change input underline color */
+  .MuiInput-underline:before,
+  .MuiInput-underline:after {
+    border-bottom-color: white !important;
+  }
+
+  /* Change calendar icon color */
+  .MuiSvgIcon-root {
+    color: white !important;
+  }
+}
